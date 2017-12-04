@@ -488,6 +488,49 @@ Right click on the desktop to bring up the menu, click settings and then Wallpap
 ## Updating system and applications
 
 ## Help with Installation and Removal of Applications
+Installing softwares in Linux
+Most of the process of installing softwares in a linux system.
+The online installation:
+A.
+Through software manager (linux mint)/software center
+First open the terminal by pressing Ctrl+Alt+T on your keyboard, and run the command below to get the latest version of the software.
+sudo apt-get update
+ 
+then
+1.	open software manager/center. It’s in the menu
+2.	search your desire software in the search box
+3.	if it’s in the list, it will appear in the menu. 
+4.	Now double click on the desired software entry and then click “install”.
+5.	It will be installed on your system as per your network connection speed.
+          Installation through synaptic package manager.
+ B. If it is absent in your linux distribution then you will have to install it through software manager/center first.
+1.Open synaptic package manager, click reload to get the latest version of the softwares.
+2. Search your desired software/s in the search box 
+3. right click each software you want to install and mark them for installing. It will mark additional dependencies on it’s own.
+4. after marking for installing, click apply
+5. it will download and install the marked software
+
+C. Through terminal.
+If you know the exact name of the software, then you can install if through terminal by simple entering the command
+
+Sudo apt-get update (to get the latest version)
+Sudo apt-get install software-package-name
+
+D. installing .deb packages
+Through terminal
+Cd path to-the-directory-that-contain-the-.deb-file
+Sudo dpkg-I filename.deb
+
+E. through gdebi package manager
+If gdebi is not installed then, you have to install it.
+1.	Then double click on the .deb file or open the file with gdebi package manager and click install.
+2.	It will be installed soon
+F. installing. rpm packages
+rpm must be installed in the system, to install rpm (it requires internet connection)
+Code:
+Cd path-to-the-directory -that contains-the-.rpm files
+Sudo rpm-i filename.rpm
+
 
 
 # Command references
